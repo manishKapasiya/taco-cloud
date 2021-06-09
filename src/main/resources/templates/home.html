@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Taco Cloud</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
+</head>
+
+<body>
+<h1>Design your taco!</h1>
+<img th:width="500px" th:height="500px" th:src="@{/images/TacoCloud.png}"/>
+
+<p>New here? Click
+    <a th:href="@{/register}">here</a> to register.</p>
+<p>Login
+    <a th:href="@{/login}">here</a>.</p>
+</body>
+</html>
